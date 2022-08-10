@@ -12,4 +12,8 @@ class Unicorn
   def silver?
     color == 'silver'
   end
+
+  def say(say_what)
+    "**;* #{say_what} **;*"
+  end
 end
