@@ -2,9 +2,10 @@
 
 # Practice: ruby and git with Stemmle
 class Dragon
-  attr_reader :name
+  attr_reader :name, :color
 
-  def initialize(name)
+  def initialize(name, color)
     @name = name
+    @color = color
   end
 end
