@@ -9,4 +9,7 @@ class Unicorn
     @color = color
   end
 
+  def silver?
+    color == 'silver'
+  end
 end
