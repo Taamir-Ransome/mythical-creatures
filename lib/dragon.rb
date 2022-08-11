@@ -2,7 +2,7 @@
 
 # Practice: ruby and git with Stemmle
 class Dragon
-  attr_reader :name, :color, :rider, :dragon_food
+  attr_reader :name, :color, :rider
 
   def initialize(name, color, rider)
     @name = name
