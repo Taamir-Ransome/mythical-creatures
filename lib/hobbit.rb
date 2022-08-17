@@ -17,3 +17,8 @@ class Hobbit
   def adult?
     @age > 32
   end
+
+  def old_hobbit?
+    @age > 100
+  end
+
