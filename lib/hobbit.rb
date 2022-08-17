@@ -22,3 +22,7 @@ class Hobbit
     @age > 100
   end
 
+  def has_ring?
+    @name == 'Frodo'
+  end
+
