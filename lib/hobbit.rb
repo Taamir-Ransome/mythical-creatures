@@ -1,13 +1,12 @@
-
 # Path: mythical-creatures/lib/hobbit.rb
 
 # Practice: ruby and git with Stemmle
 class Hobbit
-  attr_reader :name, :disposition
+  attr_reader :name, :disposition, :age
 
-  def initialiaze(name, disposition = 'homebody')
+  def initialize(name, disposition = 'homebody', age = 0)
     @name = name
     @disposition = disposition
+    @age = age
   end
-end
 
