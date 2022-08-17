@@ -10,3 +10,6 @@ class Hobbit
     @age = age
   end
 
+  def celebrate_birthday
+    @age += 1
+  end
