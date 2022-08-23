@@ -18,8 +18,12 @@ class Hobbit
     @age > 32
   end
 
-  def old_hobbit?
+  def old?
     @age > 100
+  end
+
+  def adult?
+    @age > 32
   end
 
   def has_ring?
@@ -30,4 +34,3 @@ class Hobbit
     true
   end
 end
-
