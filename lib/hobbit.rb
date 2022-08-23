@@ -14,6 +14,10 @@ class Hobbit
     @age += 1
   end
 
+  def adult?
+    @age > 32
+  end
+
   def old?
     @age > 100
   end
