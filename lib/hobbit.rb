@@ -30,4 +30,3 @@ class Hobbit
     true
   end
 end
-
