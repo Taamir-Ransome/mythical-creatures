@@ -11,4 +11,7 @@ class Pirate
     @booty = 0
   end
 
+  def ship_robbery
+    @booty += 100
+  end
 end
