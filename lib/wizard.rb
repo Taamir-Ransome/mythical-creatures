@@ -14,4 +14,8 @@ class Wizard
     bearded
   end
 
+  def incantation(spell)
+    "sudo " + spell
+  end
+
 end
