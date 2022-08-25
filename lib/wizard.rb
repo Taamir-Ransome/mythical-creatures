@@ -18,4 +18,10 @@ class Wizard
     "sudo " + spell
   end
 
+  def rested?
+    return false unless @rested < 3
+
+    true
+  end
+
 end
