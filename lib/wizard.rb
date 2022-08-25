@@ -10,4 +10,8 @@ class Wizard
     @rested = 0
   end
 
+  def bearded?
+    bearded
+  end
+
 end
