@@ -24,4 +24,8 @@ class Wizard
     true
   end
 
+  def cast
+    @rested += 1
+    "MAGIC MISSILE"
+  end
 end
